@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0" metadata-complete="false">
+  <display-name>bookstore</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- servlet的配置 -->
+<!--  <servlet>
+    &lt;!&ndash; servlet的内部名称，自定义。尽量有意义 &ndash;&gt;
+    <servlet-name>Bookstore</servlet-name>
+    &lt;!&ndash; servlet的类全名： 包名+简单类名 &ndash;&gt;
+    <servlet-class>com.shulei.bookstore.web.servlet.ActiveServlet</servlet-class>
+  </servlet>
+  &lt;!&ndash; servlet的映射配置 &ndash;&gt;
+  <servlet-mapping>
+    &lt;!&ndash; servlet的内部名称，一定要和上面的内部名称保持一致！！ &ndash;&gt;
+    <servlet-name>Bookstore</servlet-name>
+    &lt;!&ndash;访问路径  http://localhost:8080/Bookservlet&ndash;&gt;
+    &lt;!&ndash;这里和@Webservlet路径一个道理 &ndash;&gt;
+    <url-pattern>/activeServlet</url-pattern>
+  </servlet-mapping>-->
+
+</web-app>
